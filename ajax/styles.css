@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.button {
+  display: block;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  background-color: rebeccapurple;
+  color: #fff;
+  border: none;
+  padding: 1em;
+  border-radius: 0.25em;
+  font-size: 1em;
+  margin-top: 1em;
+  transition: all ease 200ms;
+}
+
+.button:hover {
+  color: rebeccapurple;
+  border: 1px solid rebeccapurple;
+  background-color: transparent;
+}
+
+.users {
+  max-width: 80%;
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.users li {
+  margin-bottom: 1em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.5em;
+}
